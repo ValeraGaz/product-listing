@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 14",
+      "category": "Electronics",
+      "price": 999,
+      "image": "/images/iphone14.png",
+      "description": "Latest Apple iPhone with A16 Bionic chip."
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S23",
+      "category": "books",
+      "price": 899,
+      "image": "/images/samsung.jpg",
+      "description": "New Samsung phone with 120Hz display."
+    }
+]
