@@ -51,6 +51,8 @@ export default function Home() {
         >
           <option value="">All Categories</option>
           <option value="Electronics">Electronics</option>
+          <option value="Laptops">Laptops</option>
+          <option value="Headphones">Headphones</option>
         </select>
 
         <select

@@ -1,18 +1,156 @@
 [
-    {
-      "id": 1,
-      "name": "iPhone 14",
-      "category": "Electronics",
-      "price": 999,
-      "image": "/images/iphone14.png",
-      "description": "Latest Apple iPhone with A16 Bionic chip."
-    },
-    {
-      "id": 2,
-      "name": "Samsung Galaxy S23",
-      "category": "books",
-      "price": 899,
-      "image": "/images/samsung.jpg",
-      "description": "New Samsung phone with 120Hz display."
+  {
+    "id": 1,
+    "name": "iPhone 14 Pro",
+    "category": "Electronics",
+    "price": 1099,
+    "image": "/images/iphone14.png",
+    "description": "Apple iPhone 14 Pro with A16 Bionic chip and ProMotion technology.",
+    "specs": {
+      "Brand": "Apple",
+      "Model": "iPhone 14 Pro",
+      "RAM": "6GB",
+      "Storage": "128GB",
+      "Display": "6.1-inch Super Retina XDR",
+      "Battery": "3200mAh",
+      "Camera": "48MP Triple Camera",
+      "OS": "iOS 16"
     }
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S23 Ultra",
+    "category": "Electronics",
+    "price": 1299,
+    "image": "/images/samsung.jpg",
+    "description": "Samsung Galaxy S23 Ultra with Snapdragon 8 Gen 2 and 200MP camera.",
+    "specs": {
+      "Brand": "Samsung",
+      "Model": "Galaxy S23 Ultra",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Display": "6.8-inch Dynamic AMOLED 2X",
+      "Battery": "5000mAh",
+      "Camera": "200MP Quad Camera",
+      "OS": "Android 13"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Google Pixel 7 Pro",
+    "category": "Electronics",
+    "price": 899,
+    "image": "/images/pixel7.png",
+    "description": "Google Pixel 7 Pro with Google Tensor G2 and amazing camera features.",
+    "specs": {
+      "Brand": "Google",
+      "Model": "Pixel 7 Pro",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Display": "6.7-inch LTPO OLED",
+      "Battery": "5000mAh",
+      "Camera": "50MP Triple Camera",
+      "OS": "Android 13"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Xiaomi 13 Pro",
+    "category": "Electronics",
+    "price": 999,
+    "image": "/images/xiaomi13.jpg",
+    "description": "Xiaomi 13 Pro with Snapdragon 8 Gen 2 and 120W fast charging.",
+    "specs": {
+      "Brand": "Xiaomi",
+      "Model": "13 Pro",
+      "RAM": "12GB",
+      "Storage": "256GB",
+      "Display": "6.73-inch AMOLED",
+      "Battery": "4820mAh",
+      "Camera": "50MP Triple Camera",
+      "OS": "MIUI 14 (Android 13)"
+    }
+  },
+  {
+    "id": 5,
+    "name": "OnePlus 11",
+    "category": "Electronics",
+    "price": 799,
+    "image": "/images/oneplus11.png",
+    "description": "OnePlus 11 with Snapdragon 8 Gen 2 and Hasselblad Camera.",
+    "specs": {
+      "Brand": "OnePlus",
+      "Model": "11",
+      "RAM": "8GB",
+      "Storage": "128GB",
+      "Display": "6.7-inch AMOLED 120Hz",
+      "Battery": "5000mAh",
+      "Camera": "50MP Triple Camera",
+      "OS": "OxygenOS (Android 13)"
+    }
+  },
+  {
+    "id": 6,
+    "name": "MacBook Pro M2",
+    "category": "Laptops",
+    "price": 1999,
+    "image": "/images/macbookpro.jpg",
+    "description": "Apple MacBook Pro with M2 chip and 16-inch Retina Display.",
+    "specs": {
+      "Brand": "Apple",
+      "Model": "MacBook Pro M2",
+      "RAM": "16GB",
+      "Storage": "512GB SSD",
+      "Display": "16-inch Liquid Retina XDR",
+      "Battery": "100Wh",
+      "OS": "macOS Ventura"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Dell XPS 15",
+    "category": "Laptops",
+    "price": 1899,
+    "image": "/images/dellxps15.jpg",
+    "description": "Dell XPS 15 with Intel Core i9 and 4K OLED display.",
+    "specs": {
+      "Brand": "Dell",
+      "Model": "XPS 15",
+      "RAM": "32GB",
+      "Storage": "1TB SSD",
+      "Display": "15.6-inch 4K OLED",
+      "Battery": "86Wh",
+      "OS": "Windows 11"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Sony WH-1000XM5",
+    "category": "Headphones",
+    "price": 399,
+    "image": "/images/sonywh1000xm5.jpg",
+    "description": "Sony WH-1000XM5 Noise-Canceling Wireless Headphones.",
+    "specs": {
+      "Brand": "Sony",
+      "Model": "WH-1000XM5",
+      "Battery Life": "30 hours",
+      "Noise Cancellation": "Yes",
+      "Connectivity": "Bluetooth 5.2"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Bose QuietComfort 45",
+    "category": "Headphones",
+    "price": 329,
+    "image": "/images/boseqc45.jpg",
+    "description": "Bose QuietComfort 45 with excellent noise cancellation.",
+    "specs": {
+      "Brand": "Bose",
+      "Model": "QuietComfort 45",
+      "Battery Life": "24 hours",
+      "Noise Cancellation": "Yes",
+      "Connectivity": "Bluetooth 5.1"
+    }
+  }
 ]

@@ -4,8 +4,8 @@ const Header = () => {
         <header>
             <strong>ProductLine</strong>
             <nav>
-                <Link href="/">HOME</Link>
-                <Link href="/">HOME</Link>
+                <Link href="/">Home</Link>
+                <Link href="/about">About</Link>
             </nav>
         </header>
     )
