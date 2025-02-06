@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { useProductStore } from "./store/ProductStore";
+import { useProductStore } from "../store/ProductStore";
 import Link from "next/link";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
 
   useEffect(() => {
     console.log("Fetching data...");
-    fetch("./info/data.json")
+    fetch("/resources/data.json")
       .then((res) => res.json())
       .then((data) => {
         console.log("Fetched data:", data);

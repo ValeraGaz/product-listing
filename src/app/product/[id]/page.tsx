@@ -1,7 +1,7 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
-import { useProductStore } from "./../../store/ProductStore";
+import { useProductStore } from "../../../store/ProductStore";
 import Image from "next/image";
 
 export default function ProductDetail() {
